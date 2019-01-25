@@ -31,20 +31,7 @@
 <pre id="exampletext" hidden="true">
 //Get a value from the user
 value = prompt("Please type in a number")
-if (value < 0) {
-  alert("You picked a negative number!") //Alert the user they picked a negative number
-}
-else if (value < 10) {
-  alert("You picked a small number") //Alert the user they picked a small number
-}
-else if (value < 100) {
-  alert("You picked a medium number") //Alert the user they picked a medium number
-}
-else {
-  alert("You picked a large number") //Alert the user they picked a large number
-}
-document.write("You picked the number " + value)</pre>
-
+alert("You picked the number ", value) //Pop-up with the number 
 
         
         <p>Consider the following code:</p>
@@ -54,13 +41,9 @@ document.write("You picked the number " + value)</pre>
         </div>
         
         
-        <p>This program asks the user for a number, and assigns the users input to a variable. It then proceeds to call the number either negative, small, medium, or large.</p>
+        <p>This code snippet takes input from the user (asks the user for a number), and assigns the users input to a variable. It then proceeds to respond back with the number picked.</p>
         
-        <p>There isn't much special about this program - but there is something special about JavaScript - it can run in the browser.</p>
-        
-        <p>JavaScript can be inserted in HTML files using script tags - much like paragraph tags. An example is shown in the editor below. Click run, and the program will execute right on this page!</p>
-        
-        <p>Click the download button to download the HTML file, then open it in your browser (usually you can just click on it, though a right click and "Open With" may be needed)</p>
+        <p>Hit the "Run" button to see how it works</p>
 
         <p>Congratulations on Your First Website!</p>
         
@@ -123,18 +106,7 @@ document.write("You picked the number " + value)</pre>
     <script>
       //Get a value from the user
       value = prompt("Please type in a number")
-      if (value < 0) {
-        alert("You picked a negative number!") //Alert the user they picked a negative number
-      }
-      else if (value < 10) {
-        alert("You picked a small number") //Alert the user they picked a small number
-      }
-      else if (value < 100) {
-        alert("You picked a medium number") //Alert the user they picked a medium number
-      }
-      else {
-        alert("You picked a large number") //Alert the user they picked a large number
-      }
+      alert("You picked the number ", value) //Pop-up with the number 
     </script>
   </body>
 </html>-->
